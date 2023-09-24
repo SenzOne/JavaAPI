@@ -1,0 +1,1 @@
+//Name Surname Age//        Kate Smith 20//        Paul Green 25//        Mike Black 23package org.seminars.seminar1;public class Task3 {    public static void main(String[] args) {    }}
