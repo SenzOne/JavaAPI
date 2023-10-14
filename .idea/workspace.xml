@@ -4,21 +4,66 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2864b94-4577-4d0f-a9a7-88aa44529a71" name="Changes" comment="" />
+    <list default="true" id="f2864b94-4577-4d0f-a9a7-88aa44529a71" name="Changes" comment="completed task 6 with new spaces 2">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw1/task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw1/task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw1/task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw1/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw2/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw2/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw3/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw3/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw3/Task3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw4/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw4/MyQueye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw4/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw5/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw5/NameCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homeworks/hw5/PhoneBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminars/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminars/seminar4/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminars/seminar5/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminars/seminar5/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/seminars/seminar6/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/seminars/seminar1/Task3.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="seminars" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2VqoidwL9meYKaEkFjrGczIJXce" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -27,9 +72,93 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "homworks",
+    "last_directory_selection": "/Users/s.slashchhinin/Documents/Repo/JavaApi/src/main/java",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="newNumber1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks.hw6.Main" />
+      <module name="JavaApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeworks.hw6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks.hw4.Task1" />
+      <module name="JavaApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeworks.hw4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.seminars.seminar2.task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.seminars.seminar2.task3" />
+      <module name="JavaApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.seminars.seminar2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.seminars.seminar2.task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.seminars.seminar2.task4" />
+      <module name="JavaApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.seminars.seminar2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="task4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks.hw1.task4" />
+      <module name="JavaApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeworks.hw1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.task4" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.org.seminars.seminar2.task4" />
+        <item itemvalue="Application.org.seminars.seminar2.task3" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,6 +168,106 @@
       <option name="presentableId" value="Default" />
       <updated>1695573099849</updated>
     </task>
+    <task id="LOCAL-00001" summary="add task from seminar 1">
+      <created>1695584956104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695584956104</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add task from seminar 1 in seminar 1 pkd">
+      <created>1695585271708</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695585271708</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add task from seminar 2">
+      <created>1695635742173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695635742173</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add task 4">
+      <created>1695884127674</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695884127674</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add task from seminar 3">
+      <created>1696676639897</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696676639897</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add task from seminar 3">
+      <created>1696676785406</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696676785406</updated>
+    </task>
+    <task id="LOCAL-00007" summary="completed task 5">
+      <option name="closed" value="true" />
+      <created>1697323183564</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697323183564</updated>
+    </task>
+    <task id="LOCAL-00008" summary="completed task 6 with new spaces">
+      <option name="closed" value="true" />
+      <created>1697324955706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697324955706</updated>
+    </task>
+    <task id="LOCAL-00009" summary="completed task 6 with new spaces 2">
+      <option name="closed" value="true" />
+      <created>1697325309588</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697325309588</updated>
+    </task>
+    <task id="LOCAL-00010" summary="completed task 6 with new spaces 2">
+      <option name="closed" value="true" />
+      <created>1697325393361</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697325393361</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add task from seminar 1" />
+    <MESSAGE value="add task from seminar 1 in seminar 1 pkd" />
+    <MESSAGE value="add task from seminar 2" />
+    <MESSAGE value="add task 4" />
+    <MESSAGE value="add task from seminar 3" />
+    <MESSAGE value="completed task 5" />
+    <MESSAGE value="completed task 6 with new spaces" />
+    <MESSAGE value="completed task 6 with new spaces 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed task 6 with new spaces 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/homeworks/hw3/Task3.java</url>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

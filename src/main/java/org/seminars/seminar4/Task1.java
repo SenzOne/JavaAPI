@@ -1,0 +1,1 @@
+// Напишите класс LLTasks с методом revert, который принимал бы на вход LinkedList и возвращает “перевернутый” список.package org.seminars.seminar4;public class Task1 {}
