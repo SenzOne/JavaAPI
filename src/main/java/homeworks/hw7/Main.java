@@ -24,6 +24,3 @@ public class Main {
         Laptop.filter("ssd", 5000, l1, l2, l3, l4, l5);
     }
 }
-
-
-
