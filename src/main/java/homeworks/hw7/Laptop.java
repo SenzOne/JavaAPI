@@ -1,11 +1,23 @@
-package homeworks.hw7;
+// Задание
+//Подумать над структурой класса Ноутбук (Laptop) для магазина техники - выделить поля и методы. Реализовать в java.
+//Создать множество ноутбуков Set<Laptop>. (добиться чтобы во множестве не было одинаковых ноутбуков)
+//(*) Написать метод, который будет запрашивать у пользователя критерий (или критерии) фильтрации и выведет ноутбуки,
+// отвечающие фильтру. Критерии фильтрации можно хранить в Map.
+// Например: “Введите цифру, соответствующую необходимому критерию:
+//1 - ОЗУ
+//2 - Объем ЖД
+//3 - Операционная система
+//4 - Цвет …
+//Далее нужно запросить минимальные значения для указанных критериев - сохранить параметры фильтрации можно также в Map.
+//Отфильтровать ноутбуки их первоначального множества и вывести проходящие по условиям.
 
-import homeworks.hw6.Laptopold;
+        package homeworks.hw7;
 
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Objects;
+import org.apache.commons.lang3.ClassUtils;
+import org.apache.commons.lang3.reflect.FieldUtils;
+
+import java.lang.reflect.Field;
+import java.util.*;
 
 public class Laptop {
     private String title;
@@ -30,12 +42,12 @@ public class Laptop {
     }
 
     public boolean equals(Object laptop) {
-        Laptopold newLaptopold = (Laptopold) laptop;
-        return this.title.equals(newLaptopold.title) &&
-                Objects.equals(this.os, newLaptopold.os) &&
-                Objects.equals(this.color, newLaptopold.color) &&
-                this.ram == newLaptopold.ram &&
-                this.ssd == newLaptopold.ssd;
+        Laptop newLaptop = (Laptop) laptop;
+        return this.title.equals(newLaptop.title) &&
+                Objects.equals(this.os, newLaptop.os) &&
+                Objects.equals(this.color, newLaptop.color) &&
+                this.ram == newLaptop.ram &&
+                this.ssd == newLaptop.ssd;
     }
 
     public int hashCode() {
@@ -47,28 +59,28 @@ public class Laptop {
     // метод создает список обьектов и проверяет соответствие критерия полю, а так же соответствие
     // значения критерия значению поля.
      */
-    public static void filter(String criteria, String criteriaValute, Laptopold... laptopolds) {
-        LinkedList<Laptopold> lll = new LinkedList<>(List.of(laptopolds));
-        HashSet<Laptopold> laptopoldHashSet = new HashSet<>();
+    public static void filter(String criteria, String criteriaValute, Laptop... laptops) {
+        LinkedList<Laptop> lll = new LinkedList<>(List.of(laptops));
+        HashSet<Laptop> laptopHashSet = new HashSet<>();
 
-        for (Laptopold laptopold : lll) {
-            if (criteria.equals("title") && Objects.equals(laptopold.title, criteriaValute)) {
-                laptopoldHashSet.add(laptopold);
-            } else if (criteria.equals("color") && Objects.equals(laptopold.color, criteriaValute)) {
-                laptopoldHashSet.add(laptopold);
-            } else if (criteria.equals("os") && Objects.equals(laptopold.os, criteriaValute)) {
-                laptopoldHashSet.add(laptopold);
+        for (Laptop laptop : lll) {
+            if (criteria.equals("title") && Objects.equals(laptop.title, criteriaValute)) {
+                laptopHashSet.add(laptop);
+            } else if (criteria.equals("color") && Objects.equals(laptop.color, criteriaValute)) {
+                laptopHashSet.add(laptop);
+            } else if (criteria.equals("os") && Objects.equals(laptop.os, criteriaValute)) {
+                laptopHashSet.add(laptop);
             }
         }
-        if (laptopoldHashSet.isEmpty()) {
+        if (laptopHashSet.isEmpty()) {
             System.out.println("Ничего не найдено");
         } else {
-            printResult(laptopoldHashSet);
+            printResult(laptopHashSet);
         }
     }
 
-    private static void printResult(HashSet<Laptopold> laptopoldHashSet) {
-        for (Laptopold i : laptopoldHashSet) {
+    private static void printResult(HashSet<Laptop> laptopHashSet) {
+        for (Laptop i : laptopHashSet) {
             System.out.println(i);
         }
     }
@@ -76,22 +88,21 @@ public class Laptop {
     /*
     // метод filter переопределен для значений типа int
      */
-    public static void filter(String criteria, int criteriaValute, Laptopold... laptopolds) {
-        LinkedList<Laptopold> lll = new LinkedList<>(List.of(laptopolds));
-        HashSet<Laptopold> laptopoldHashSet = new HashSet<>();
-        for (Laptopold laptopold : lll) {
-            if (criteria.equals("ram") && (laptopold.ram >= criteriaValute)) {
-                laptopoldHashSet.add(laptopold);
-            } else if (criteria.equals("ssd") && (laptopold.ssd >= criteriaValute)) {
-                laptopoldHashSet.add(laptopold);
+    public static void filter(String criteria, int criteriaValute, Laptop... laptops) {
+        LinkedList<Laptop> lll = new LinkedList<>(List.of(laptops));
+        HashSet<Laptop> laptopHashSet = new HashSet<>();
+        for (Laptop laptop : lll) {
+            if (criteria.equals("ram") && (laptop.ram >= criteriaValute)) {
+                laptopHashSet.add(laptop);
+            } else if (criteria.equals("ssd") && (laptop.ssd >= criteriaValute)) {
+                laptopHashSet.add(laptop);
             }
         }
 
-        if (laptopoldHashSet.isEmpty()) {
+        if (laptopHashSet.isEmpty()) {
             System.out.println("Ничего не найдено");
         } else {
-            printResult(laptopoldHashSet);
+            printResult(laptopHashSet);
         }
     }
 }
-
